@@ -1,15 +1,15 @@
-body{
+/* body{
 font-family: 'raleway', sans-serif; 
 background-image: linear-gradient(90deg,
 rgba(25, 6, 134, 0.822),
 rgba(26, 158, 219, 0.733)
  ); */
-}
+} */
 /* .container {
  
 } */
 
-.header {
+/* .header {
  height: 100px; 
  background-image: linear-gradient(90deg, 
  rgb(0, 87, 114), #0ea4b8, #0ea4b8, #0ea4b8, rgb(0, 87, 114));
@@ -133,4 +133,4 @@ li a:hover{
 
 h1{
     text-align: center;
-}
+} */

@@ -47,6 +47,13 @@ body {
     margin: auto;
 }
 
+.cpw-pic{
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
 
 .about-content-holder{
     display: flex;
@@ -85,6 +92,17 @@ body {
     border-radius: 50%;
 }
 
+.contact-holder {
+    width: 70%;
+    margin: 250px auto;
+    border: 1px dotted rgb(197, 12, 12);
+    padding: 10px;
+}
+
+.contact-text {
+    font-size: 30px;
+
+}
 footer {
   
   
@@ -166,6 +184,9 @@ a.active {
    .fulston-manor{
     max-width: 20%;
 }
+.cpw-pic{
+    max-width: 60%;
+    
   }
 
 /* media query for Portrait and Landscape for iPhone6/7/8 */
@@ -184,12 +205,17 @@ a.active {
     .about-pic1 {
     
         max-width: 30%;
-}
 
+    }
     .fulston-manor{
     max-width: 20%;
 }
+
+.cpw-pic{
+    max-width: 60%;
+
 }
+  }
 
 
 

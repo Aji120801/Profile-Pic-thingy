@@ -36,8 +36,9 @@ body {
 
 .about-pic1 {
     
-    max-width: 15%;
-    display: flex;
+    max-width: 60%;
+    display: block;
+    margin: auto;
 
 }
 
@@ -77,14 +78,34 @@ body {
     margin: 0 10px;
 }
 
-
-.profile-holder {
-    width: 70%;
-    margin: 0px auto;
-    border: 1px dotted #ccc;
-    padding: 10px;
+.port-content-holder{
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.gallery {
+    width: 25%;
+}
+
+.gallery img {
+    max-width: 100%;
+}
+
+/* 
+.gallery {
+     border: 1px solid red; 
+    margin: 0 10px;
+} */
+
+/* .gallery div{
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.gallery-item1{
+    border: 1px solid red;
+    margin: 0 10px;
+} */
 .profile-holder img{
     max-width: 50%;
     margin: 0 auto;
@@ -103,12 +124,21 @@ body {
     font-size: 30px;
 
 }
+
+.portfolio-content-holder{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 footer {
   
   
     display: flex;
     justify-content: space-evenly;
 }  
+
+
 
 .footer {
     position: absolute;
@@ -179,15 +209,16 @@ a.active {
 
     .about-pic1 {
     
-        max-width: 30%;
-}
-   .fulston-manor{
-    max-width: 20%;
-}
-.cpw-pic{
-    max-width: 60%;
+        max-width: 60%;
+    }
     
-  }
+   .fulston-manor{
+        max-width: 100%;
+    }
+    .cpw-pic{
+        max-width: 60%;
+    
+    }
 
 /* media query for Portrait and Landscape for iPhone6/7/8 */
 @media only screen 

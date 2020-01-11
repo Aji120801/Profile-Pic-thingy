@@ -29,6 +29,7 @@ body {
 .profile-text {
     font-size: 18px;
 
+
 }
 
 .content {
@@ -59,6 +60,7 @@ body {
 .about-content-holder{
     display: flex;
     justify-content: space-evenly;
+
 }
 
 
@@ -173,7 +175,7 @@ li {
 li a {
     color: white;
     padding-top: 40px;
-    display: block;
+    display: block;  
     text-decoration: none;
     transition: 0.4s ease-in-out;
    
@@ -211,7 +213,7 @@ a.active {
     
         max-width: 60%;
     }
-    
+
    .fulston-manor{
         max-width: 100%;
     }

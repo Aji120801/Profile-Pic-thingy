@@ -44,6 +44,7 @@ body {
 
 #popup p{
     text-align: center;
+
 }
 
 #header-pusher{
@@ -95,6 +96,8 @@ a.active {
 
 .profile-text {
     font-size: 18px;
+
+
 }
 
 
@@ -160,6 +163,7 @@ a.active {
 
 .contact-text {
     font-size: 30px;
+
 }
 
 .portfolio-content-holder{
@@ -169,9 +173,13 @@ a.active {
 
 
 footer {
+  
+  
     display: flex;
     justify-content: space-evenly;
 }  
+
+
 
 .footer {
     position: absolute;
@@ -222,10 +230,7 @@ li {
         max-width: 80%;
     } 
 
-    .about-pic1 {
-    
-        max-width: 60%;
-    }
+   
 
    .fulston-manor{
         max-width: 100%;
@@ -248,11 +253,6 @@ li {
         max-width: 80%;
     }
 
-    .about-pic1 {
-    
-        max-width: 30%;
-
-    }
     .fulston-manor{
     max-width: 20%;
 }
@@ -263,3 +263,25 @@ li {
 }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

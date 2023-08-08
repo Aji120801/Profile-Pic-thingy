@@ -1,0 +1,29 @@
+.about-content-holder div {
+    border: 1px solid;
+    width: 33%;
+    padding: 10px;
+}
+
+.about-content-holder div:nth-of-type(2) {
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.about-content-holder div:nth-of-type(4) {
+    border: 1px solid red;
+    margin: 0 10px;
+}
+
+.about-pic1 {
+    
+    max-width: 60%;
+    display: block;
+    margin: auto;
+
+}
+
+.about-content-holder{
+    display: flex;
+    justify-content: space-evenly;
+
+}
